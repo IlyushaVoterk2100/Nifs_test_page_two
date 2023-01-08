@@ -1,0 +1,53 @@
+/*Color variables*/
+:root {
+  --color1: #13cbf0;
+  --color2: #eee;
+}
+
+/*Header*/
+
+header {
+  background: #1e5799;
+  background: -moz-linear-gradient(top, var(--color1) 0%, var(--color2) 100%);
+  background: -webkit-linear-gradient(
+    top,
+    var(--color1) 0%,
+    var(--color2) 100%
+  );
+  background: linear-gradient(to bottom, var(--color1) 0%, var(--color2) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2), GradientType=0 );
+}
+
+.headbtn {
+  width: 100%;
+}
+
+/*Main*/
+
+main {
+  background-color: #eee;
+}
+
+.list-group-item {
+  background-color: #eee;
+  border: 0;
+}
+
+/*Footer*/
+footer {
+  background: #1e5799;
+  background: -moz-linear-gradient(top, var(--color2) 0%, var(--color1) 100%);
+  background: -webkit-linear-gradient(
+    top,
+    var(--color2) 0%,
+    var(--color1) 100%
+  );
+  background: linear-gradient(to bottom, var(--color2) 0%, var(--color1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color2), endColorstr=var(--color1), GradientType=0 );
+}
+
+/*Modal*/
+
+.btn-light {
+  background-color: #eee;
+}
